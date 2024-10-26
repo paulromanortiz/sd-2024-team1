@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# If using PostgreSQL, ignore the database dumps:
+*.dump
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Media and static files
+media/
+staticfiles/
+
+# Local environment settings
+.env
+.env.local
+.env.*.local
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains IDEs
+.idea/
+
+# macOS files
+.DS_Store
+
+# Node modules (if using npm or yarn for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# PyCharm files
+__pycache__/
+*.iml
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Testing
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Linting reports
+pylint.log
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Bandit security scanner
+.bandit
+
+# Docker
+*.pid
+*.seed
+*.env
+.env.production
+.dockerignore
