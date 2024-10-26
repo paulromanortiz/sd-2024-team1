@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 
 def home(request):
-    return render(request, 'main/home.html')
+    return render(request, 'budget/home.html')
 
 @login_required
 def dashboard(request):
@@ -13,4 +13,4 @@ def dashboard(request):
 "Welcome to the dashboard!",
 "You have no new messages.",
 ]
-    return render(request, 'main/dashboard.html', {'notifications': notifications})
+    return render(request, 'budget/dashboard.html', {'notifications': notifications})
