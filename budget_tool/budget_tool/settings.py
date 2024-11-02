@@ -136,5 +136,3 @@ AUTHENTICATION_BACKENDS = (
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/' # Redirect users after login
 LOGOUT_REDIRECT_URL = '/' # Redirect users after logout
-
-CSRF_TRUSTED_ORIGINS=['https://repulsive-goblin-q7vx7jxvrqjgcx55x-8000.app.github.dev']
